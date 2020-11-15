@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+
+{% extends 'mood1/baseon.html' %}
+
+{% block body_block %}
+
+<h1>WELCOME TO INDEX PAGE</h1>
+    {% load my_extra %}
+    <h1>{{ text|cut:'world' }}</h1>
+    <h2>{{ number|add:"500" }}</h2>
+
+{% endblock %}

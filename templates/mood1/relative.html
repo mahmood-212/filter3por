@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+{% extends 'mood1/baseon.html' %}
+{% block body_block %}
+    <h1>relative page</h1>
+
+    <a href="{% url 'Read:index' %}">Index Page</a>
+    <a href="{% url 'Read:other' %}">Other Page</a>
+{% endblock %}
