@@ -25,7 +25,7 @@ SECRET_KEY = 'i&o%25uyg3*16=(2&y=5@^l@_e$023om%cxtrr=mqauy15wvns'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['aboali212.pythonanywhere.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
